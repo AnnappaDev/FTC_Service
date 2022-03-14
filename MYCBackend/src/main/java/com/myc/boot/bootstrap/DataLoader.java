@@ -21,7 +21,7 @@ public class DataLoader implements ApplicationListener<ContextRefreshedEvent> {
 	@Override
 	public void onApplicationEvent(ContextRefreshedEvent event) {
 		Retailer retailer_a = new Retailer();
-		retailer_a.setName("Veeresh Mundewadi");
+		retailer_a.setName("Veeresh Mundevadi");
 		retailer_a.setMobileNo("9886887795");
 		retailer_a.setEmailId("veereshnm@gmail.com");
 		retailer_a.setShopName("Manjunath footwear Main road Naregal");
